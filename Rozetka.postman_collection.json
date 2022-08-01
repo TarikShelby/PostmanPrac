@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "3d46c452-c68f-48a3-987e-e5365479c1a6",
+		"name": "Rozetka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17571263"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "POST /session/auth/signup-phone HTTP/1.1",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": " application/json, text/plain, */*",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": " gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": " ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": " keep-alive",
+						"type": "text"
+					},
+					{
+						"key": "Content-Length",
+						"value": " 231",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": " application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": " xab_segment=125; _uss-csrf=Ne5sAg00mc1i1WDWF0dkqAD/zVqnal4odrqdmBEwpDMaVz64; ussapp=JsC2iYEijiJyVoEM6cXfLi_IdB6rK2i1aWY8-WZ7; visitor_city=385; ab-catalog-tile-description=old; ab-catalog-selection-filters=old; ab-catalog-backend=old; ab-catalog-delivery-terms=old; ab-catalog-filter-result-quantity=old; filter-tabs=old; ab-kt-action=super-offer; ab_language=new; ussat_exp=1659216353; ussajwt=eyJhbGciOiJSUzI1NiIsImtpZCI6InVzc2F0LnYwIiwidHlwIjoiSldUIn0.eyJkZXRhaWxzIjoiZGEzN2E2Mzg1ZDhlMmExNWJhMDY4ZGVlYzJkYjQ3M2NkODk0ZDRhMTE3Y2VhNjA3OGVmNDhmZGI2YzllY2FhOTFjM2FlODZiMzE1YzA3MGI5ZjI4MDM3NTBhNmFkZDE3MWFkMTMzOTYwOTgyY2Y1NmEzZmRmOTI3ZDMyZTg5ODVmY2EzOTNkY2JmNjZiYjU4YmNlMGNhYzBkY2YxMmM3NTkxZGNkMWJmNTc1OWIyMWI3N2Y3YjMzYmIzNjU2ZDkwZjdmYmZlZDA3NWM3NTgyYzgyZGJjMTA5ODE4YTc5MWJhMDc3NjkwOGM0MTZkYzM1NTU0NDM3NzRlYzdiMDUzMSIsImV4cCI6IjE2NTkyMTYzNTMiLCJ1c3NhdCI6ImE5Yjc2YWJkNDUzYWFkY2IzOGIxNzYyY2VmM2RlZjNiLnVhLTViZDExN2ZjNThkMzcyYjZlNWU0NzQyNTAwZWRiNjU2LjE2NTkyMTYzNTMifQ.zqfO-Wc6lpxDy3Z77mBpoF8Prm0y8PSG70ZD6vtsiuDapMhGE-htXbdAjHVn5awsGfikY-S7QnMAfZMN8sk9TPIRymk4W_MVQdmgEUuR00MxbSRW0Bxk6KtSLaylk4QCmKpALgF8AxGt_E1hDzoZOyOuRbiUKpoOXeJ-kXUNrHFHSJJX9c41Ndk8K3MCDzssEuBjofHT_lPfzXCDKe5G4yQtYVH84ORsSoEjGC-PEXbME_qZOsHWfn52k7M5B0CURZPJLKf5TkZrUKaddXZhWzr-4-CgpGo3o0wF0kB9p6nOBovbF9PV3ArUPqAiuYI7zpcBXHaWbWaRki2OgaW4eg; ussat=a9b76abd453aadcb38b1762cef3def3b.ua-5bd117fc58d372b6e5e4742500edb656.1659216353; ussrt=180c433a7a5535d59410a8b95be6b810.ua-5bd117fc58d372b6e5e4742500edb656.1661765153; uss_evoid_cascade=no; slang=ru; uid=rB4eC2LlEC4RT/ujmEmeAg==; errorDestination=https://rozetka.com.ua/404/; __cf_bm=MkkXTUBAoV7C.5pUco1fYIHK98sGXhdEBiIshPGo4y8-1659181327-0-AVwH3j4O7orQklpfV67Sw1Rio2h2Vib1cwdr8gMy6g68VNG2D5BryqbgIE/wq7zGZQpXuuySfD1Onp5xs5wr1LY=; errorReferrer=https://rozetka.com.ua/form-error.component.css.map/",
+						"type": "text"
+					},
+					{
+						"key": "Csrf-Token",
+						"value": " Ne5sAg00mc1i1WDWF0dkqAD/zVqnal4odrqdmBEwpDMaVz64",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": " uss.rozetka.com.ua",
+						"type": "text"
+					},
+					{
+						"key": "Origin",
+						"value": " https://rozetka.com.ua",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": " https://rozetka.com.ua/",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": " empty",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": " cors",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": " same-site",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": " \".Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"103\", \"Chromium\";v=\"103\"",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": " ?0",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": " \"Windows\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": " Тарас",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": " Тарас",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": " Черней",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": " Test123",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": " wonelib141@5k2u.com",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": " 951231233",
+							"type": "text"
+						},
+						{
+							"key": "request_token",
+							"value": " rB4eC2LlEC4RT/ujmEmeAg==",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://uss.rozetka.com.ua/session/auth/signup-phone",
+					"protocol": "https",
+					"host": [
+						"uss",
+						"rozetka",
+						"com",
+						"ua"
+					],
+					"path": [
+						"session",
+						"auth",
+						"signup-phone"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
